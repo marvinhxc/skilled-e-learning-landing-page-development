@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #f0f0f7;
+  min-width: 375px;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* border: 1px solid black; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 1.75rem;
+  color: #13183f;
+}
+p {
+  color: #83869a;
+}
+
+.hero-desktop {
+  display: none;
+}
+
+.header-btn {
+  padding: 1em 2em;
+  border-radius: 20px;
+  border: none;
+  background-color: #13183f;
+  color: #ffff;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #f74780;
+}
+
+.header-btn:hover {
+  background-color: #424879;
+}
+
+.first-column h2 {
+  color: #13183f;
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+
+.get-started-btn {
+  padding: 1.2em 2.5em;
+  border-radius: 30px;
+  border: none;
+  background-image: linear-gradient(
+    to bottom,
+    #ff6f48,
+    #ff595b,
+    #ff4372,
+    #ff308b,
+    #f02aa6
+  );
+  color: #ffff;
+  cursor: pointer;
+  margin: 1.5em 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.get-started-btn:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #d8a799,
+    #e9a5a6,
+    #e9a1b3,
+    #df91b3,
+    #e288c1
+  );
+}
+
+.second-column-title {
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #ff6f48,
+    #ff595b,
+    #ff4372,
+    #ff308b,
+    #f02aa6
+  );
+  padding: 1.3em;
+  margin-bottom: 2em;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.offer {
+  padding: 1.3em;
+  background-color: #ffff;
+  border: 1px solid #ffff;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 2.5em;
+}
+
+.offer h4 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 1em 0;
+}
+
+.offer p {
+  margin-bottom: 1em;
+}
+
+.icon {
+  position: absolute;
+  top: -25px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #13183f;
+  margin-top: 5em;
+  padding: 1em;
+}
+footer h1 {
+  color: white;
+}
+
+.footer-btn {
+  padding: 1.2em 2.5em;
+  border-radius: 30px;
+  border: none;
+  background-image: linear-gradient(
+    to bottom,
+    #f02aa6,
+    #dd28bd,
+    #c133d4,
+    #9642eb,
+    #4851ff
+  );
+  color: #ffff;
+  cursor: pointer;
+  margin: 1.5em 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.footer-btn:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #f1abd8,
+    #e9a2dc,
+    #d19ed8,
+    #c9a9e9,
+    #a9ace2
+  );
+}
